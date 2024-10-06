@@ -1,11 +1,10 @@
-from aiogram.types import (InlineKeyboardMarkup, InlineKeyboardButton, 
-                           WebAppInfo, InlineKeyboardButton,
-                           InlineKeyboardMarkup, Message)
+from aiogram.types import (InlineKeyboardButton, WebAppInfo, 
+                           InlineKeyboardButton, Message)
 from aiogram import Bot, Dispatcher, F
 from aiogram.filters import CommandStart
 from aiogram.utils.keyboard import InlineKeyboardBuilder
 
-BOT_TOKEN = '6310608985:AAGBNiy2NYUQb-ebGggTqbk8aWmkSJjp5yQ'
+BOT_TOKEN = 'EnterYourToken'
 
 bot = Bot(token=BOT_TOKEN)
 dp = Dispatcher()
